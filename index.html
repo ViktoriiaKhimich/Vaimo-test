@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- top header -->
+
+        <div class="container top-header">
+            <p class="top-header-text">We deliver Worldwide</p>
+            <div class="our-stores">
+                <svg class="location-icon">
+                    <use href="./images/symbol-defs.svg#shape"></use>
+                </svg>
+                <p class="stores">Our stores</p>
+            </div>
+        </div>
+
+        <!-- bottom header -->
+
+        <div class="header-background">
+
+            <div class="bottom-header container">
+
+                <div class="left-side">
+                    <button class="burger-btn" data-menu-open>
+                        <svg class="burger-btn-icon">
+                            <use href="./images/symbol-defs.svg#menu"></use>
+                        </svg>
+                    </button>
+                    <button class="search-btn" data-search-open>
+                        <svg class="search-icon">
+                            <use href="./images/symbol-defs.svg#search"></use>
+                        </svg>
+                    </button>
+                </div>
+
+
+                <svg class="mobile-logo">
+                    <use href="./images/symbol-defs.svg#Aurora"></use>
+                </svg>
+
+                <p class="logo">Aurora</p>
+
+                <!--search icon and search form -->
+
+                <form name="search" class="search-form">
+                    <div>
+                        <label for="search">
+                            <input type="text" placeholder="What are you looking for?" name="search" id="search"
+                                class="search-form-field">
+                        </label>
+                        <!-- <button class="search-form-btn">
+                                        <svg class="search-form-icon">
+                                            <use href="./images/symbol-defs.svg#search"></use>
+                                        </svg>
+                                    </button> -->
+                    </div>
+                </form>
+
+                <div class="right-side">
+                    <p class="greeting-text">Hi, Angels!</p>
+                    <svg class="basket-icon">
+                        <use href="./images/symbol-defs.svg#basket"></use>
+                    </svg>
+
+                    <span class="products-total">99</span>
+                </div>
+            </div>
+
+            <!-- navigation -->
+
+            <nav class="navigation">
+                <ul class="main-nav-list">
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">what's new</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">women</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">accesories</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">kids</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">beauty</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">outlet</a></li>
+                    <li class="main-nav-list-item"><a href="" class="nav-list-link">stories</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class='hero mobile-hero'>
+            <h1 class="hero-title">Hello! Welcome to Aurora</h1>
+        </div>
+
+        <!-- <div class="authorization">
+            <ul class="auth-list">
+                <li class="auth-list-item"><a href="" class="auth-list-link">Sign in</a></li>
+                <li class="auth-list-item"><a href="" class="auth-list-link"></a>Register</li>
+            </ul>
+        </div> -->
+
+
+        <!-- mobile menu -->
+
+        <!-- <div class="mobile-menu">
+            <button type="button"></button>
+            <ul class="section-nav-list">
+                <h3 class="section-nav-list-title">Women</h3>
+                <a href="" class="section-nav-list-link">View all</a>
+                <li class="section-nav-list-item">clothing</li>
+                <li class="section-nav-list-item">collections</li>
+                <li class="section-nav-list-item">collabs</li>
+                <li class="section-nav-list-item">brands</li>
+            </ul>
+            <ul class="products-list">
+                <h3 class="products-list-title"></h3>
+                <a href="" class="section-nav-list-link">View all</a>
+                <li class="products-list-item">T-shirts</li>
+                <li class="products-list-item">Sweatshirts</li>
+                <li class="products-list-item">Knitwear</li>
+                <li class="products-list-item">Jeans</li>
+                <li class="products-list-item">Jumpsuits</li>
+                <li class="products-list-item">Skirts</li>
+                <li class="products-list-item">Dresses</li>
+            </ul>
+            <ul class="auth-list">
+                <li class="auth-list-items">Sign in</li>
+                <li class="auth-list-items">Register</li>
+            </ul>
+            <p>Out stores</p>
+            <p>We deliver Worldwide</p> -->
+        <!-- </div> -->
+    </header>
+
+    <main>
+        <section>
+            <!-- Registration form  -->
+            <form name="register" class="register-form">
+                <div class="register-form-title">
+                    <p>New arrivals. Exclusive previews. First access to sales. Sign up to
+                        stay in the know.</p>
+                </div>
+                <div class="form-body">
+                    <label for="register">
+                        <input type="email" placeholder="Your email address" name='register' id="register"
+                            class="form-field">
+                    </label>
+                    <button type="button" class="register-btn">Register</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer-info">
+            <ul class="info-list list">
+                <li class='info-list-item'>
+                    <div class="desktop-info-list">
+                        <h3 class='info-list-title'>About us</h3>
+                        <ul class='into'>
+                            <li class="info-list-item"> <a href="">Who we are</a> </li>
+                            <li class="info-list-item"> <a href="">Our stores</a> </li>
+                            <li class="info-list-item"> <a href="">Customer Reviews</a></li>
+                        </ul>
+                    </div>
+                    <details>
+                        <summary class='info-list-title'>About us</summary>
+                        <ul class='into'>
+                            <li class="info-list-item"> <a href="">Who we are</a> </li>
+                            <li class="info-list-item"> <a href="">Our stores</a> </li>
+                            <li class="info-list-item"> <a href="">Customer Reviews</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li class='info-list-item'>
+                    <h3 class='info-list-title'>Categories</h3>
+                    <ul class='into'>
+                        <li class="info-list-item"><a href="">Women fashion</a></li>
+                        <li class="info-list-item"><a href="">Accesories</a></li>
+                        <li class="info-list-item"><a href="">Kids</a></li>
+                    </ul>
+                    <details>
+                        <summary class='info-list-title'>Categories</summary>
+                        <ul class='into'>
+                            <li class="info-list-item"><a href="">Women fashion</a></li>
+                            <li class="info-list-item"><a href="">Accesories</a></li>
+                            <li class="info-list-item"><a href="">Kids</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li class='info-list-item'>
+                    <h3 class='info-list-title'>Help</h3>
+                    <ul class='into'>
+                        <li class="info-list-item"><a href="">Customer service</a></li>
+                        <li class="info-list-item"><a href="">Size guide</a></li>
+                        <li class="info-list-item"><a href="">Contacts us</a></li>
+                    </ul>
+                    <details>
+                        <summary class='info-list-title'>Help</summary>
+                        <ul class='into'>
+                            <li class="info-list-item"><a href="">Customer service</a></li>
+                            <li class="info-list-item"><a href="">Size guide</a></li>
+                            <li class="info-list-item"><a href="">Contacts us</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li class='info-list-item'>
+                    <h3 class='info-list-title'>Payments & Delivery</h3>
+                    <ul class='into'>
+                        <li class="info-list-item"><a href="">Purchase terms</a></li>
+                        <li class="info-list-item"><a href="">Guarantee</a></li>
+                    </ul>
+                    <details>
+                        <summary class='info-list-title'>Payments & Delivery</summary>
+                        <ul class='into'>
+                            <li class="info-list-item"><a href="">Purchase terms</a></li>
+                            <li class="info-list-item"><a href="">Guarantee</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li class='info-list-item'>
+                    <h3 class='info-list-title'>Social</h3>
+                    <div class="social-links-container">
+                        <ul class="social-links-list list">
+                            <li class="social-link-item">
+                                <a class="social-link link" href="">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#insta"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="social-link-item">
+                                <a class="social-link link" href="">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="social-link-item">
+                                <a class="social-link link" href="">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#snapchat"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="social-link-item">
+                                <a class="social-link link" href="">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-link-item">
+                                <a class="social-link link" href="">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p class="copyrights">© Copyright, Aurora 2020. All Rights reserved.</p>
+    </footer>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

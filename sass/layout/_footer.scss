@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--secondary-bg-color);
+  padding-top: 16px;
+  padding-bottom: 22px;
+
+  @media screen and (min-width:768px) {
+    padding-top: 26px;
+    padding-bottom: 14px;
+  }
+
+  &-info {
+    margin-bottom: 38px;
+  }
+}
+
+.info-list-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 1.16364px;
+    color: var(--primary-text-color);
+    margin-bottom: 17px;
+    margin-left: 16px;  
+
+    @media screen and (min-width:767px) {
+      margin-bottom: 17px;
+    }
+
+}
+
+details {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+details::after {
+      display: block;
+      content: '';
+      min-width: 328px;
+      height: 1px;
+      border-bottom: 1px solid #E1E0E1;
+      margin-top: 12.5px;
+      margin-bottom: 12.5px;
+      
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+details summary {
+  display: block;  
+  width: 10em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; 
+  cursor: pointer;
+
+}
+
+details summary::-webkit-details-marker { 
+  display: none;
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  &-item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+    &-item:first-child {
+    margin-right: 48px;
+  }
+}
+
+
+.info-list-item {
+    & > a {
+      font-family: 'Poppins', sans-serif;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 1.58;
+      letter-spacing: 0.1px;
+      color: var(--primary-text-color);
+
+      @media screen and (min-width:768px) {
+        margin-bottom: 10px;
+        margin-left: 16px;
+      }
+    }
+}
+
+.copyrights {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.44;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: var(--primary-text-color);
+}
+
+.social-links-container {
+  margin-top: 24px;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.desktop-info-list {
+  display: none;
+  @media screen and (min-width:768px) {
+    display: block;
+  }
+}
+
+
+
+

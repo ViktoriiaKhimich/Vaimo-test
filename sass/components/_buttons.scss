@@ -1,0 +1,53 @@
+.register-btn {
+    width: 94px;
+    height: 32px;
+    color: var(--primary-bg-color);
+    background-color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.burger-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 16px;
+
+    &-icon {
+        width: 20px;
+        height: 15px;
+        fill: #FFFFFF;
+
+        .bottom-header:hover & {
+        fill: var(--primary-text-color);
+    }
+    }
+
+}
+
+.search-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 18px;
+    height: 18px;
+    stroke: var(--primary-bg-color);
+
+    .bottom-header:hover & {
+        stroke: var(--primary-text-color);
+    }
+}
+
+
