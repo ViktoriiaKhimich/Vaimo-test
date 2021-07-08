@@ -14,6 +14,8 @@
     border-radius: 3px;
     cursor: pointer;
     margin-left: 8px;
+
+    
 }
 
 .burger-btn {
@@ -27,7 +29,9 @@
         height: 15px;
         fill: #FFFFFF;
 
-        .bottom-header:hover & {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        .header-background:hover & {
         fill: var(--primary-text-color);
     }
     }
@@ -45,7 +49,9 @@
     height: 18px;
     stroke: var(--primary-bg-color);
 
-    .bottom-header:hover & {
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .header-background:hover & {
         stroke: var(--primary-text-color);
     }
 }
