@@ -23,7 +23,7 @@
     margin-bottom: 14px;
 }
 
-.form-body{
+.form-body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,13 +33,15 @@
     width: 224px;
     height: 32px;
     padding: 8px 11px;
+
+    border: 1px solid #E1E0E1;
+    border-radius: 3px;
     // margin-right: 8px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 11px;
     line-height: 1.454;
     letter-spacing: 0.8px;
-    color: #4A4A4A;
     outline: none;
 
     @media screen and (min-width: 768px) {
