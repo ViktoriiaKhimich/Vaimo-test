@@ -1,9 +1,15 @@
 .search-form {
-    display: none;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -164px;
 
     @media screen and (min-width:768px) {
         display: block;
         position: relative;
+        margin-left: 0px;
+        top: 0;
+        left: 0;
     }
 }
 
@@ -18,7 +24,6 @@
     background-color: rgba(247,247,247, 0.24);
     outline: none;
     border: transparent;
-    // border: 1px solid #F2F2F2;
     border-radius: 3px;
     mix-blend-mode: normal;
 

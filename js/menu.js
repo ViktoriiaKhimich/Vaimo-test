@@ -8,9 +8,6 @@
         openThirdMenu: document.querySelector('.clothing'),
         thirdMenu: document.querySelector('.third-mob-menu'),
         goBackToSecond: document.querySelector('.go-back-btn'),
-        openSearchBtn: document.querySelector('.search-icon'),
-        // closeSearchBtn: document.querySelector('[data-search-close]'),
-        search: document.querySelector('.search-form'),
     };
 
     console.log(refs.openSearchBtn);
@@ -22,13 +19,6 @@
     refs.openThirdMenu.addEventListener('click', toggleThirdMenu)
 
     refs.goBackToSecond.addEventListener('click', goBackToSecondMenu)
-
-    refs.openSearchBtn.addEventListener('click', toggleSearchForm)
-    // refs.closeSearchBtn.addEventListener('click', toggleSearchForm)
-
-    function toggleSearchForm() {
-        refs.search.classList.toggle('is-search-form-hidden')
-    }
 
     function goBackToSecondMenu() {
         refs.thirdMenu.classList.toggle('is-menu-hidden')

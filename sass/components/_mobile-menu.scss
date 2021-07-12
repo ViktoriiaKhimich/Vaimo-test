@@ -44,33 +44,33 @@
 
 .main-mobile-nav-list {
     margin-bottom: 80px;
+
+    &-item {
+        position: relative;
+        padding-top: 17px;
+
+         & > a {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 1.454;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--primary-text-color);
+        }
+
+        &::after {
+            display: block;
+            content: '';
+            width: 320px;
+            height: 1px;
+            border: 1px solid #F7F7F7;
+            margin-top: 14px;
+            margin-left: -16px;
+        }
+    }
 }
 
-.main-mobile-nav-list-item {
-
-    position: relative;
-    padding-top: 17px;
-
-    & > a {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 1.454;
-        letter-spacing: 1.2px;
-        text-transform: uppercase;
-        color: var(--primary-text-color);
-    }
-
-    &::after {
-        display: block;
-        content: '';
-        width: 320px;
-        height: 1px;
-        border: 1px solid #F7F7F7;
-        margin-top: 14px;
-        margin-left: -16px;
-    }
-}
 
 .open-nav-list-item-icon {
     position: absolute;
@@ -104,37 +104,35 @@
     }
 }
 
-
-
 .section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 24px;
-}
 
-.section-nav-list {
-    margin-bottom: 176px;
-}
+    &-nav-list {
+        margin-bottom: 176px;
 
-.section-nav-list-title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 1.454;
-        letter-spacing: 1.2px;
-        text-transform: uppercase;
-        color: var(--primary-text-color);
-}
+        &-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 1.454;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--primary-text-color);
+        }
 
-.section-nav-list-link {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 1.2;
-    letter-spacing: 0.0916667px;
-    text-decoration-line: underline; 
-    color: var(--primary-text-color);   
+        &-link {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 1.2;
+            letter-spacing: 0.0916667px;
+            text-decoration-line: underline; 
+            color: var(--primary-text-color);  
+        }
+    }
 }
 
 .bottom-line {
@@ -170,6 +168,14 @@
     text-align: center;
     letter-spacing: 0.5px;
     margin-top: 15px;
+
+    &-icon {
+        width: 10px;
+        height: 13px;
+        fill: var(--primary-text-color);
+        margin-right: 7px;
+}
+
 }
 
 .second-mob-menu {
@@ -238,33 +244,26 @@
 
 .products-list {
     margin-bottom: 32px;
-}
 
-.products-list-item {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.583;
-    letter-spacing: 0.1px;
-    color: var(--primary-text-color);
-    padding-top: 14px;
+    &-item {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.583;
+        letter-spacing: 0.1px;
+        color: var(--primary-text-color);
+        padding-top: 14px;
 
         &::after {
-        display: block;
-        content: '';
-        width: 320px;
-        height: 1px;
-        border: 1px solid #F7F7F7;
-        margin-top: 15px;
-        margin-left: -16px;
+            display: block;
+            content: '';
+            width: 320px;
+            height: 1px;
+            border: 1px solid #F7F7F7;
+            margin-top: 15px;
+            margin-left: -16px;
+        }
     }
-}
-
-.delivery-icon {
-    width: 10px;
-    height: 13px;
-    fill: var(--primary-text-color);
-    margin-right: 7px;
 }
 
 .third-menu-stores-info {

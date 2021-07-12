@@ -13,9 +13,7 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-left: 8px;
-
-    
+    margin-left: 8px;  
 }
 
 .burger-btn {
@@ -71,6 +69,7 @@
 .go-back-btn {
     position: absolute;
     left: -5px;
+    top: -2px;
     border: none;
     background-color: transparent;
     cursor: pointer;

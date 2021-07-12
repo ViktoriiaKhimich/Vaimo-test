@@ -1,10 +1,6 @@
 .social-links-list {
   display: flex;
   justify-content: center;
-
-//   @media screen and (min-width: 1200px) {
-//     display: inline-flex;
-//   }
 }
 
 .social-link {
@@ -13,10 +9,10 @@
   align-items: center;
   background-color: var(--secondary-bg-color);
   border-radius: 50%;
-}
 
-.social-link-item:not(:last-child) {
-  margin-right: 16px;
+  &-item:not(:last-child) {
+    margin-right: 16px;
+  }
 }
 
 .social-list-icon {
