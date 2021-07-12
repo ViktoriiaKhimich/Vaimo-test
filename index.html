@@ -59,7 +59,7 @@
 
                 <!--search icon and search form -->
 
-                <form name="search" class="search-form">
+                <form name="search" class="search-form ">
                     <button class="search-form-btn">
                         <svg class="search-form-icon">
                             <use href="./images/symbol-defs.svg#search"></use>
@@ -107,17 +107,11 @@
 
         <div class="mobile-menu is-menu-hidden" data-menu>
 
-            <div class="top-menu-container">
-                <button type="button" class="close-menu-btn" data-menu-close>
-                    <svg class="close-menu-icon">
-                        <use href="./images/symbol-defs.svg#close"></use>
-                    </svg>
-                </button>
-
+            <span class="mob-logo">
                 <svg class="logo-icon">
                     <use href="./images/symbol-defs.svg#Aurora"></use>
                 </svg>
-            </div>
+            </span>
 
             <nav class="main-mobile-nav">
                 <ul class="main-mobile-nav-list">
@@ -127,8 +121,8 @@
                             <use href="./images/symbol-defs.svg#right"></use>
                         </svg>
                     </li>
-                    <li class="main-mobile-nav-list-item">
-                        <a href="">women</a>
+                    <li class="main-mobile-nav-list-item women">
+                        <a>women</a>
                         <svg class="open-nav-list-item-icon">
                             <use href="./images/symbol-defs.svg#right"></use>
                         </svg>
@@ -169,18 +163,86 @@
                 </ul>
             </div>
 
+        </div>
 
-            <!-- <ul class="section-nav-list">
-                <h3 class="section-nav-list-title">Women</h3>
-                <a href="" class="section-nav-list-link">View all</a>
-                <li class="section-nav-list-item">clothing</li>
-                <li class="section-nav-list-item">collections</li>
-                <li class="section-nav-list-item">collabs</li>
-                <li class="section-nav-list-item">brands</li>
-            </ul> -->
-            <!-- <ul class="products-list">
-                <h3 class="products-list-title"></h3>
-                <a href="" class="section-nav-list-link">View all</a>
+        <div class="second-mob-menu is-menu-hidden">
+
+            <span class="mob-logo">
+                <svg class="logo-icon">
+                    <use href="./images/symbol-defs.svg#Aurora"></use>
+                </svg>
+            </span>
+
+            <ul class="section-nav-list">
+                <div class="section">
+                    <h3 class="section-nav-list-title">Women</h3>
+                    <a href="" class="section-nav-list-link">View all</a>
+                </div>
+                <span class="bottom-line"></span>
+                <li class="main-mobile-nav-list-item">
+                    <a class="clothing">clothing</a>
+                    <svg class="open-nav-list-item-icon">
+                        <use href="./images/symbol-defs.svg#right"></use>
+                    </svg>
+                </li>
+                <li class="main-mobile-nav-list-item">
+                    <a href="">collections</a>
+                    <svg class="open-nav-list-item-icon">
+                        <use href="./images/symbol-defs.svg#right"></use>
+                    </svg>
+                </li>
+                <li class="main-mobile-nav-list-item">
+                    <a href="">collabs</a>
+                    <svg class="open-nav-list-item-icon">
+                        <use href="./images/symbol-defs.svg#right"></use>
+                    </svg>
+                </li>
+                <li class="main-mobile-nav-list-item">
+                    <a href="">brands</a>
+                    <svg class="open-nav-list-item-icon">
+                        <use href="./images/symbol-defs.svg#right"></use>
+                    </svg>
+                </li>
+            </ul>
+
+            <div class="auth">
+                <ul class="auth-list">
+                    <li class="auth-list-item"><a href="" class="auth-list-link">Sign in | Register</a></li>
+                </ul>
+            </div>
+
+            <div class="stores-info">
+                <a href="" class="stores-info-link">Our stores</a>
+            </div>
+
+            <p class="delivery">We deliver Worldwide</p>
+
+        </div>
+
+        <div class="third-mob-menu is-menu-hidden">
+
+            <div class="top-menu-container">
+                <button type="button" class="close-menu-btn" data-menu-close>
+                    <svg class="close-menu-icon">
+                        <use href="./images/symbol-defs.svg#close"></use>
+                    </svg>
+                </button>
+
+                <svg class="logo-icon">
+                    <use href="./images/symbol-defs.svg#Aurora"></use>
+                </svg>
+            </div>
+            <ul class="products-list">
+                <div class="section">
+                    <button type="button" class="go-back-btn" data-menu-close>
+                        <svg class="go-back-icon">
+                            <use href="./images/symbol-defs.svg#right"></use>
+                        </svg>
+                    </button>
+                    <h3 class="section-nav-list-title">clothing</h3>
+                    <a href="" class="section-nav-list-link">View all</a>
+                </div>
+                <span class="bottom-line"></span>
                 <li class="products-list-item">T-shirts</li>
                 <li class="products-list-item">Sweatshirts</li>
                 <li class="products-list-item">Knitwear</li>
@@ -189,18 +251,30 @@
                 <li class="products-list-item">Skirts</li>
                 <li class="products-list-item">Dresses</li>
             </ul>
-            <ul class="auth-list">
-                <li class="auth-list-items">Sign in</li>
-                <li class="auth-list-items">Register</li>
-            </ul> -->
-            <!-- <p>Out stores</p>
-            <p>We deliver Worldwide</p> -->
+
+            <div class="auth">
+                <ul class="auth-list">
+                    <li class="auth-list-item"><a href="" class="auth-list-link">Sign in | Register</a></li>
+                </ul>
+            </div>
+
+            <div class="third-menu-stores-info">
+                <svg class="delivery-icon">
+                    <use href="./images/symbol-defs.svg#shape"></use>
+                </svg>
+                <a href="" class="stores-info-link">Our stores</a>
+            </div>
+
+            <p class="delivery">We deliver Worldwide</p>
+
         </div>
+
     </header>
 
     <main>
         <section>
-            <!-- Registration form  -->
+            <!-- Registration form -->
+
             <form name="register" class="register-form">
                 <div class="register-form-title">
                     <p>New arrivals. Exclusive previews. First access to sales. Sign up to
